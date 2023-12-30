@@ -1,8 +1,9 @@
 import discord
 from discord.ext import commands
+
 from keras.models import load_model #keras kullanabimek için gerekli kütüphane
 from PIL import Image , ImageOps #resim tanıtımı için gerekli kütüphaneler 
-import numpy as np # ver işleme için gerekli kütüphaneler
+import numpy as np # veri işleme için gerekli kütüphaneler
 
 
 
@@ -78,3 +79,5 @@ async def check(ctx):
 
 
 bot.run("Token")
+
+
